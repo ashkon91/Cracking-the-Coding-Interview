@@ -37,5 +37,7 @@ for(int x=0;x<word1.length();x++)
 	//if the count is not 0 then there cant be a permutation.
 	if(count!=0) return false;
 }
+//if loop completes then it must be true
+
 return true;
 }
